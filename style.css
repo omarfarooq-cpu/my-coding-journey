@@ -40,18 +40,17 @@ ul li ::before{
     color: #22c55e;
 }
 button {
-    margin-top: 25px;
-    padding: 12px 30px;
-    font-size: 16px;
     background-color: #38bdf8;
+    color: #ffffff;
     border: none;
+    padding: 12px 30px;
     border-radius: 25px;
+    font-size: 16px;
     cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
 }
 button:hover {
     background-color: #0ea5e9;
     transform: scale(1.05);
-    transition: 0.3s;
-    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
