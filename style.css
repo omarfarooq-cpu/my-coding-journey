@@ -54,3 +54,9 @@ button:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
+#message {
+    color: #e0f2fe;
+    font-weight: 500;
+    min-height: 24px; /* To maintain space even when empty */
+    transition: all 0.3s ease;
+}
